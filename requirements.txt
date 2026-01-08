@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+scikit-learn
+numpy
+pandas
+pydantic
+python-multipart
+psycopg2-binary
+python-dotenv
+evidently==0.4.33
+jupyter
+notebook
+pytest
+httpx
+sqlalchemy
+imblearn
+xgboost
