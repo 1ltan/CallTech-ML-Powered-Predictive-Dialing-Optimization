@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from .database import models, database
 from .endpoints import training, inference, monitoring
 
-# Створення таблиць (якщо не існують)
 models.Base.metadata.create_all(bind=database.engine)
 
 app = FastAPI(title="CallTech ML API")
