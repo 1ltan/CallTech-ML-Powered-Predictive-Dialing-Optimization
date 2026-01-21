@@ -17,7 +17,7 @@ os.makedirs(MODEL_DIR, exist_ok=True)
 
 class CallTechModel:
     def __init__(self):
-        self.model_name = "logistic_regression"
+        self.model_name = "Logistic Regression"
         self.model_path = os.path.join(MODEL_DIR, f"{self.model_name}.pkl")
         self.model = None
 
